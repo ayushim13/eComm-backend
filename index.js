@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI)
 // middlewares
 app.use(cors(
     {
-        origin: ["http://localhost:3000" , "https://akshop.onrender.com"]
+        origin: ["http://localhost:3000" , "https://flairshop.onrender.com/"]
     }
 ));
 app.use(morgan("dev"));
